@@ -4,6 +4,8 @@
 <head>
     <title>Contoso News</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="NonPrintView.css" media="not print" />
+    <link rel="stylesheet" href="PrintView.css" media="print"/>
     <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
 </head>
 <body>
@@ -12,8 +14,7 @@
         <h2>On Time, On Topic</h2>
     </header>
     <main>
-        <fieldset>
-            <legend>Latest Articles</legend>
+        <h3>Latest Articles</h3>
             <br />
             <article>
                 <time datetime="17-03-2017">Friday, 17 March</time>
@@ -58,7 +59,6 @@
                     <a href="#">Read More...</a>
                 </p>
             </article>
-        </fieldset>
     </main>
     <h4>Sign Up For Our Emails</h4>
     <details>
